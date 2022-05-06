@@ -29,13 +29,107 @@ header .wrapper{
     margin-left: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.8em;
-    font-weight: 600;
+    font-weight: 800;
     color: rgb(12, 0, 176);
 }
 
 .logo a span{
     color: gray;
+    font-family: 'Fredoka', sans-serif;
 }
+
+header form{
+    margin-left: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+header form input {
+    padding: 12px 12px 12px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #f6f7f9;
+    outline: none;
+    width: 500px;
+    height: 20px;
+    margin-left: -80px;
+    
+}
+
+header form input::placeholder {
+    color: #dadada;
+    font-size: 1.em;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+header form ion-icon{
+    position: absolute;
+    padding-left: 20px;
+    color: #dadada;
+    font-size: 1.1em;
+    font-family: 'Raleway' sans-serif;
+    margin-left: -80px;
+}
+
+header .btn1{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    background-color: blue;
+}
+
+header .btn2{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    color: rgb(69, 69, 69);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    background-color: #f6f7f9;
+    color: blue;
+}
+
+header ul li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+header ul li a {
+    font-size: 1.6em;
+    display: block;
+    position: relative;
+    color: black;
+}
+
+header ul li a span {
+    font-size: .6em;
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: blue;
+    width: 16px;
+    height: 16px;
+    z-index: 99;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    left: 16px;
+    bottom: 20px;
+}
+
 
